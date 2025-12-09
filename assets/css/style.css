@@ -1,0 +1,37 @@
+/* === PERBAIKAN WARNA SIDEBAR === */
+.bg-pink {
+  background-color: #e75480 !important; /* warna pink yang lebih tegas */
+}
+
+.nav-link.text-white {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.nav-link.text-white:hover,
+.nav-link.text-white.active {
+  background-color: #fff !important;
+  color: #e75480 !important;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.sidebar .dropdown-toggle,
+.sidebar .dropdown-item {
+  color: #444 !important;
+}
+
+.sidebar .dropdown-item:hover {
+  background-color: #fce4ec !important;
+  color: #e75480 !important;
+}
+
+/* Logo dan nama klinik agar terlihat elegan */
+nav.bg-pink .fw-bold {
+  color: #fff;
+}
+
+hr.border-light {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
